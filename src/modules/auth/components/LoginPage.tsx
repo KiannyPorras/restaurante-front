@@ -53,7 +53,7 @@ export function LoginPage() {
             <div className="flex justify-center items-center bg-white shadow-lg rounded-2xl size-14 text-slate-950">
               <Utensils className="size-7" />
             </div>
-            <CardTitle>Restaurante Kianny</CardTitle>
+            <CardTitle>Restaurante</CardTitle>
             <CardDescription className="text-white/75">
               Ingresa tus credenciales para acceder al panel administrativo.
             </CardDescription>
@@ -73,7 +73,7 @@ export function LoginPage() {
                     value={field.state.value}
                     onBlur={field.handleBlur}
                     onChange={(event) => field.handleChange(event.target.value)}
-                    placeholder="kianny o correo@ejemplo.com"
+                    placeholder="usuario o correo@ejemplo.com"
                     className="bg-white/10 border-white/20 text-white placeholder:text-white/50"
                   />
                 </label>

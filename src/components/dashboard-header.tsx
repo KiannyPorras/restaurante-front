@@ -17,7 +17,7 @@ export function DashboardHeader({ user }: DashboardHeaderProps) {
       </Button>
       <Link to="/dashboard" className="flex items-center gap-2 md:hidden">
         <Utensils className="size-5" />
-        <span className="font-semibold">Kianny</span>
+        <span className="font-semibold">Restaurante</span>
       </Link>
       <div className="ml-auto hidden md:block">
         <p className="text-sm text-muted-foreground">

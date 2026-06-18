@@ -12,7 +12,7 @@ export function SidebarBrand() {
       </div>
       <div className="grid leading-tight">
         <span className="truncate text-sm font-semibold">
-          Restaurante Kianny
+          Restaurante
         </span>
         <span className="truncate text-xs text-muted-foreground">
           Panel administrativo
